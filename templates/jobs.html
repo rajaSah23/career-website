@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rojgaar</title>
+  <link rel="stylesheet" href="./css/jobs.css"">
+</head>
+<body>
+  <style>
+    body{
+      background-color:lightcoral;
+    }
+    .container{
+      width:900px;
+      margin:auto;
+    }
+    .job{
+      border: 2px solid gold;
+      margin:10px;
+      padding:10px;
+    }
+  </style>
+  <h1>Rojgaar</h1>
+  <div class="container">
+    {% include './partials/newOpennings.html' %}   <!--Partials -->
+  </div>
+</body>
+</html>

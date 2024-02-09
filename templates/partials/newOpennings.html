@@ -1,0 +1,11 @@
+<div class="job-opennings">
+  <h1>New Job Opennings</h1>
+  <hr>
+  {% for job in jobs %}
+    <div class="job">
+      <h2>{{job.title}}</h2>
+      <p>{{job.location}}</p>
+      <p>{{job.salary}}</p>
+    </div>
+  {% endfor %}
+</div>
